@@ -14,15 +14,15 @@ theme:
 # Mostly for your pages
 menu:
   Home: /
-  # About: /about
+  About: /about
   # Links: /links
 
 # Profile
 profile:
-  avatar: /avatar.jpg
+  avatar: /avatar.png
   # Email address will be used for showing gravatar(https://en.gravatar.com) avatar if `avatar` is not specified.
-  email: example@mail.com
-  bio: Awesome guy.
+  email: taccaya@gmail.com
+  bio: Software Engineer
 
 # Social media
 # Try to sort by changing the order of the keys
@@ -32,7 +32,7 @@ sns:
   # `feed` will fallback to `feed.path` of site if not specified
   feed:
   github:
-  twitter:
+  twitter: https://twitter.com/taccaya
   facebook:
   google+:
   instagram:
@@ -53,9 +53,9 @@ footer:
   copyright:
 
   # Set to false to hide Hexo link.
-  powered: true
+  powered: false
   # Set to false to hide theme info.
-  theme: true
+  theme: false
 
   # Custom text can be defined here.
   # custom: Hosted by <a target="_blank" rel="external nofollow" href="https://pages.coding.me"><b>Coding Pages</b></a>
@@ -109,7 +109,7 @@ category:
 
 # Favicon
 # Default is `favicon.ico`
-# favicon: favicon.ico
+favicon: /favicon.ico
 
 # Disqus comments
 comments:
@@ -175,10 +175,10 @@ pwa:
     # start_url: /
     # theme_color: '#2a2b33'
     # background_color: '#2a2b33'
-    # icons:
-    #   - src: icon-194x194.png
-    #     sizes: 194x194 512x512
-    #     type: image/png
+    #icons:
+    #  src: icon-194x194.png
+    #  sizes: 194x194 512x512
+    #  type: image/png
     #   - src: icon-144x144.png
     #     sizes: 144x144
     #     type: image/png
